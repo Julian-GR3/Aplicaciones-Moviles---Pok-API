@@ -1,7 +1,7 @@
 pokemonList();
 
 function pokemonList() {
-    fetch("https://pokeapi.co/api/v2/pokemon/electabuzz")
+    fetch("https://pokeapi.co/api/v2/pokemon/eevee")
         .then(response => response.json())
         .then(data => {
             // Nombre
